@@ -11,7 +11,7 @@ body {
     margin: 0;
     overflow-x: hidden;
     box-sizing: border-box;
-    background: linear-gradient(#BEC9E6, #869677);
+    background: linear-gradient(white,#BEC9E6, #869677, white);
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -41,6 +41,7 @@ footer {
     background-color: var(--periwinkle);
     /* border: solid 2px black; */
     padding: 1% 0 3% 1%;
+    text-align: center;
 }
 
 .footer-link {
@@ -48,3 +49,52 @@ footer {
    margin: 0 0.5rem;
 }
 
+/* LINK STYLING */
+nav a,
+footer a {
+    color: black;
+}
+
+nav a:link,
+footer a:link,
+nav a:visited,
+footer a:visited {
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--moss-green);
+}
+
+nav a:active {
+    color: var(--periwinkle);
+    background-color: var(--davys-gray);
+}
+
+/* CONTACT STYLING */
+.connect-form>div {
+    display: flex;
+    flex-flow: column wrap;
+    margin-bottom: 5rem;
+}
+
+fieldset {
+    margin-bottom: 2rem;
+}
+
+.connect-container legend {
+    text-align: center;
+}
+
+.contact-form h1 {
+    text-align: center;
+}
+
+.contact-submit-button {
+    margin-top: 2rem;
+    padding: 0.5rem 1.5rem;
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: medium;
+    cursor: pointer;
+}
