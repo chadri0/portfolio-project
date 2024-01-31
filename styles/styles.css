@@ -1,0 +1,50 @@
+:root {
+    --periwinkle: #BEC9E6;
+    --sage: #CBCC9D;
+    --moss-green: #869677;
+    --davys-gray: #555754;
+}
+
+body {
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background: linear-gradient(#BEC9E6, #869677);
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* NAV STYLING */
+.portfolio-logo {
+    width: 450px;
+}
+
+nav {
+    background-color: var(--periwinkle);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links {
+    list-style:none;
+    width: 35%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* FOOTER STYLING */
+footer {
+    background-color: var(--periwinkle);
+    /* border: solid 2px black; */
+    padding: 1% 0 3% 1%;
+}
+
+.footer-link {
+   font-size: 2rem;
+   margin: 0 0.5rem;
+}
+
